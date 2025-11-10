@@ -1,0 +1,18 @@
+.hidden {
+    display: none;
+}
+
+.first-year-title {
+    background-color: brown;
+
+}
+
+.second-year-title {
+    background-color: silver;
+
+}
+
+.third-year-title {
+    background-color: gold;
+
+}
