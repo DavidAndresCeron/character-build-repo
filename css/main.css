@@ -2,17 +2,8 @@
     display: none;
 }
 
-.first-year-title {
-    background-color: brown;
-
-}
-
-.second-year-title {
-    background-color: silver;
-
-}
-
-.third-year-title {
-    background-color: gold;
-
+body { 
+  font-family: Arial;
+  background-color: black;
+  color: white;
 }
