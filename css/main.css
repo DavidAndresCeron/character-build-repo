@@ -1,0 +1,466 @@
+.hidden {
+    display: none;
+}
+
+body { 
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  color: white;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0; 
+}
+
+#main-logo { 
+    width: 300px; 
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main-footer {
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+}
+
+#character-nav {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #cb6517ea;
+    background-image: url('../images/titles/jujutsu_kaisen_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/* Characters */
+/* First year Tokyo */
+
+#characters-one { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters-one li { 
+    display: inline;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+#characters-one li img {
+    padding: 0px;
+    border: solid 3px #3c4099;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
+}
+
+#characters-one li a { 
+    text-decoration: none; 
+}
+
+#characters-one li img:hover { 
+    filter: grayscale(100%);
+    border-radius: 40%;
+}
+
+/* Second year Tokyo */
+
+#characters-two { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters-two li { 
+    display: inline;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+#characters-two li img {
+    padding: 0px;
+    border: solid 3px #3c4099;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
+}
+
+#characters-two li a { 
+    text-decoration: none; 
+}
+
+#characters-two li img:hover { 
+    filter: grayscale(100%);
+    border-radius: 40%;
+}
+
+/* Third year Tokyo */
+
+#characters-three { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters-three li { 
+    display: inline;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+#characters-three li img {
+    padding: 0px;
+    border: solid 3px #3c4099;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
+}
+
+#characters-three li a { 
+    text-decoration: none; 
+}
+
+#characters-three li img:hover { 
+    filter: grayscale(100%);
+    border-radius: 40%;
+}
+
+/* First year Kyoto */
+
+#characters-four { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters-four li { 
+    display: inline;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+#characters-four li img {
+    padding: 0px;
+    border: solid 3px #3c4099;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
+}
+
+#characters-four li a { 
+    text-decoration: none; 
+}
+
+#characters-four li img:hover { 
+    filter: grayscale(100%);
+    border-radius: 40%;
+}
+
+/* Second year Kyoto */
+
+#characters-five { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters-five li { 
+    display: inline;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+#characters-five li img {
+    padding: 0px;
+    border: solid 3px #3c4099;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
+}
+
+#characters-five li a { 
+    text-decoration: none; 
+}
+
+#characters-five li img:hover { 
+    filter: grayscale(100%);
+    border-radius: 40%;
+}
+
+/* Third year Kyoto */
+
+#characters-six { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters-six li { 
+    display: inline;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+#characters-six li img {
+    padding: 0px;
+    border: solid 3px #3c4099;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
+}
+
+#characters-six li a { 
+    text-decoration: none; 
+}
+
+#characters-six li img:hover { 
+    filter: grayscale(100%);
+    border-radius: 40%;
+}
+
+/* Titles */
+/* Title first year Tokyo */
+
+#instructions-one {
+    padding: 20px; 
+}
+
+#instructions-one h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#instructions-one h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* Title second year Tokyo */
+
+#instructions-two {
+    padding: 20px; 
+}
+
+#instructions-two h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* Title third year Tokyo */
+
+#instructions-three {
+    padding: 20px; 
+}
+
+#instructions-three h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* Title first year Kyoto */
+
+#instructions-four {
+    padding: 20px; 
+}
+
+#instructions-four h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* Title second year Kyoto */
+
+#instructions-five {
+    padding: 20px; 
+}
+
+#instructions-five h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* Title third year Kyoto */
+
+#instructions-six {
+    padding: 20px; 
+}
+
+#instructions-six h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* footer */
+
+#instructions-footer { 
+    padding: 20px; 
+}
+
+#instructions-footer h2 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+/* Lightboxes */
+
+.lightbox {
+    width: 100vw;
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.85);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 100px center;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+.lightbox-close {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 95vw;
+    transition: all .5s ease-in-out;
+}
+
+.lightbox-close:hover {
+    color: red;
+}
+
+.lightbox section {
+    width: 600px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.lb-heading {
+    font-size: 32px;
+}
+
+.lightbox p {
+    line-height: 26px;
+}
+
+/* Itadori lightbox */
+
+#lightbox1 {
+    background-image: url(../images/background_tokyo/itadori_background.png);
+}
+
+/* Fushiguro lightbox */
+
+#lightbox2 {
+    background-image: url(../images/background_tokyo/fushiguro_background.png);
+}
+
+/* Nobara lightbox */
+
+#lightbox3 {
+    background-image: url(../images/background_tokyo/nobara_background.png);
+}
+
+/* Okkotsu lightbox */
+
+#lightbox4 {
+    background-image: url(../images/background_tokyo/yuta_background.png);
+}
+
+/* Maki lightbox */
+
+#lightbox5 {
+    background-image: url(../images/background_tokyo/maki_zenin_background.png);
+}
+
+/* Panda lightbox */
+
+#lightbox6 {
+    background-image: url(../images/background_tokyo/panda_background.png);
+}
+
+/* Inumaki lightbox */
+
+#lightbox7 {
+    background-image: url(../images/background_tokyo/inumaki_background.png);
+}
+
+/* Hakari lightbox */
+
+#lightbox8 {
+    background-image: url(../images/background_tokyo/hakari_background.png);
+}
+
+/* Kirara lightbox */
+
+#lightbox9 {
+    background-image: url(../images/background_tokyo/kirara_background.png);
+}
+
+/* Nitta lightbox */
+
+#lightbox10 {
+    background-image: url(../images/background_kyoto/nitta_background.png);
+}
+
+/* Mai lightbox */
+
+#lightbox11 {
+    background-image: url(../images/background_kyoto/mai_zenin_background.png);
+}
+
+/* Mechamaru lightbox */
+
+#lightbox12 {
+    background-image: url(../images/background_kyoto/mechamaru_background.png);
+}
+
+/* Miwa lightbox */
+
+#lightbox13 {
+    background-image: url(../images/background_kyoto/miwa_background.png);
+}
+
+/* Todo lightbox */
+
+#lightbox14 {
+    background-image: url(../images/background_kyoto/todo_background.png);
+}
+
+/* Nishimiya lightbox */
+
+#lightbox15 {
+    background-image: url(../images/background_kyoto/nishimiya_background.png);
+}
+
+/* Kamo lightbox */
+
+#lightbox16 {
+    background-image: url(../images/background_kyoto/kamo_background.png);
+}
